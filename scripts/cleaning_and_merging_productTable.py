@@ -1,3 +1,21 @@
+'''# Product Dimension Table Creation (dim_product)
+
+## Purpose  
+This script cleans, standardizes, and builds a **slowly changing dimension Type 2-aware** product master table (`dim_product`) from raw product info and category data.
+
+### Key Tasks  
+- Cleans product name, cost, line, and date validity  
+- Handles **slowly changing product attributes** (valid-from / valid-to logic)  
+- Corrects `prd_end_dt` using next record’s `prd_start_dt – 1 day`  
+- Takes current (active) product snapshot by filtering null `prd_end_dt`  
+- Extracts and standardizes `cat_id` from `prd_key`  
+- Joins with product category hierarchy (category → sub-category)  
+- Adds clean **surrogate key** (`prd_key`) for data warehouse use  
+
+### Output  
+`clean_dim_product.csv` – A clean, conformed **product dimension** ready for star schema, with proper hierarchy and current product attributes.
+
+Perfect for analytics, reporting, and joining with `fact_sales`.'''
 # ************************ Cleaning The product columns ************************ 
 # understanding the data
 df_prod_info.info()
