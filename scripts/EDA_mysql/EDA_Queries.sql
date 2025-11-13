@@ -1,3 +1,16 @@
+'''
+Purpose (EDA_Queries.sql)
+This SQL script performs comprehensive Exploratory Data Analysis (EDA) on the bikeSales_db data mart to uncover key business insights across multiple dimensions:
+
+Overall performance metrics (total revenue, quantity, orders, AOV)
+Time-based trends & seasonality (sales by year/month, best-performing month)
+Product performance (top-selling products, categories, subcategories, and maintenance impact)
+Customer analysis (top customers, sales by country, gender, marital status)
+Demographic breakdowns (customer age distribution and purchasing behavior by age group)
+
+Designed as a ready-to-run query library for business stakeholders and analysts to quickly understand sales patterns,
+customer behavior, product performance, and growth opportunities in the bike sales dataset.
+'''
 -- 1.Overall Performance:
 --  What are the total sales revenue and total quantity sold?
 SELECT 
