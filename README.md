@@ -61,7 +61,11 @@ The final phase was to build an interactive dashboard for a non-technical audien
 * **Data Modeling:** Built the data model in Power BI, creating relationships between the tables and adding a `dim_date` table using DAX for time-intelligence functions.
 * **DAX Measures:** Wrote DAX measures to create key metrics like `[Total Sales]`, `[Total Quantity]`, `[Avg Order Value]`, and `[Sales YTD]`.
 * **Visualization:** Designed a multi-page interactive dashboard with three views:
-    1.  **Executive Summary:** High-level KPIs, sales over time, and sales by country.
+
+* <img width="1024" height="1024" alt="Gemini_Generated_Image_ofh2l1ofh2l1ofh2" src="https://github.com/user-attachments/assets/206d920a-442d-49d9-8930-509037336894" />
+
+    1.  **Executive Summary:** 
+
     2.  **Product Deep Dive:** Analysis of sales by category, subcategory, and individual product.
     3.  **Customer Analysis:** A breakdown of customer demographics, sales by gender, and sales by marital status.
 
@@ -69,7 +73,7 @@ The final phase was to build an interactive dashboard for a non-technical audien
 
 ## Dashboard Preview
 
-**(ADD SCREENSHOTS OF YOUR POWER BI DASHBOARD HERE)**
+
 
 *Executive Summary Page:*
 `[Insert screenshot of your main dashboard page]`
