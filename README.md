@@ -69,7 +69,7 @@ The final phase was to build an interactive dashboard for a non-technical audien
 ---
 
 ## Dashboard Preview
-<img width="1143" height="644" alt="image" src="https://github.com/user-attachments/assets/6a8ef61d-97bb-4742-9fbb-08861a6d8494" />
+<img width="1139" height="719" alt="Screenshot 2025-11-19 000426" src="https://github.com/user-attachments/assets/35414b4f-3446-46b3-a1aa-6854ba49ba87" />
 
 
 ---
