@@ -69,7 +69,10 @@ The final phase was to build an interactive dashboard for a non-technical audien
 ---
 
 ## Dashboard Preview
-<img width="1139" height="719" alt="Screenshot 2025-11-19 000426" src="https://github.com/user-attachments/assets/35414b4f-3446-46b3-a1aa-6854ba49ba87" />
+<img width="1132" height="648" alt="Screenshot 2025-11-19 234033" src="https://github.com/user-attachments/assets/d1832b27-e8f5-4f31-9b3a-de569033fd84" />
+
+*Product Analysis Page:*
+<img width="1144" height="647" alt="Screenshot 2025-11-19 234051" src="https://github.com/user-attachments/assets/804a5c8b-0175-44c8-b4d7-6ec3456aeb2f" />
 
 
 ---
